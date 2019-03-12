@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import Weather from './Weather.js'
 
 function App() {
-  const [name, setName] = useState('Jeff');
   return (
-    <p> Hello, {name}</p>
+    <>
+      <h1>Welcome!</h1>
+      <Weather />
+    </>
   )
 }
 
