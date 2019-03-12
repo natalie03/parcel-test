@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 
-import './index.scss';
-
 function App() {
   const [name, setName] = useState('Jeff');
   return (
