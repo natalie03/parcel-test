@@ -1,4 +1,5 @@
 import React from 'react';
+import shortid from 'shortid';
 
 function Background({ colors }) {
 
@@ -9,14 +10,11 @@ function Background({ colors }) {
   };
 
   return (
-    <>
-      <div className="background"
-        style={style(0)}
-      />
-      <div className="background"
-        style={style(1)}
-      />
-    </>
+    <div>
+      {colors.map((color, index) => (
+        <div className="background" key={shortid.generate()} style={style(index)} />
+      ))}
+    </div>
   )
 }
 

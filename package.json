@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
     "@babel/plugin-transform-runtime": "^7.3.4",
     "@babel/preset-react": "^7.0.0",
     "babel-preset-react": "^6.24.1",
@@ -20,8 +21,10 @@
   "dependencies": {
     "@babel/runtime": "^7.3.4",
     "axios": "^0.18.0",
+    "bli-util-react": "github:briteliteimmersive/bli-util-react#master",
     "carlo": "^0.9.43",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "shortid": "^2.2.14"
   }
 }
