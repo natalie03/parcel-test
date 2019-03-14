@@ -1,4 +1,4 @@
-import { actionTypes, setScreen } from './actions';
+import { actionTypes, setScreen, setTrack } from './actions';
 import initialState from './initialState';
 import reducer from './reducer';
 
@@ -6,5 +6,6 @@ export {
   actionTypes,
   initialState,
   reducer,
-  setScreen
+  setScreen,
+  setTrack
 }
