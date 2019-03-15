@@ -1,11 +1,11 @@
 import React from 'react';
 import { trackNames } from '../constants';
 
-function MainMenu() {
+function MainMenu({ handleClick }) {
   return (
     <div className="MainMenu">
-      // <button onClick={handleClick(trackNames.VALUES)}>Values</button>
-      // <button onClick={handleClick(trackNames.RESPONSIBILITIES)}>Responsibilities</button>
+      <button onClick={() => handleClick(trackNames.VALUES)}>Explore Amgen Values</button>
+      <button onClick={() => handleClick(trackNames.RESPONSIBILITIES)}>Explore Amgen Responsibilities</button>
       Main menu!
     </div>
   )

@@ -1,8 +1,9 @@
 import { screenNames } from '../constants';
 
 const initialState = {
-  screenName: screenNames.IDLE,
-  track: ''
+  screenName: screenNames.MAIN_MENU,
+  track: '',
+  itemIndex: null
 }
 
 export default initialState;

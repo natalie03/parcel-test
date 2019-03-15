@@ -4,7 +4,6 @@ import shortid from 'shortid';
 class Background extends PureComponent {
   render() {
     const { colors } = this.props;
-    console.log(this.props)
     const style = (index) => {
       return { 
         backgroundImage: `linear-gradient(${colors[index][0]}, ${colors[index][1]})`

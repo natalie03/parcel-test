@@ -6,10 +6,17 @@ function Weather() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const API_KEY = 'faa39698a8456703f73aa92f0f44d25c';
-      const result = await axios(
-        `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${API_KEY}/42.3601,-71.0589`,
-      );
+      // const API_KEY = 'faa39698a8456703f73aa92f0f44d25c';
+      // const result = await axios(
+      //   `https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/${API_KEY}/42.3601,-71.0589`,
+      // );
+      const result = {
+        data: {
+          currently: {
+            temperature: 58
+          }
+        }
+      }
 
       setData(result.data);
     };

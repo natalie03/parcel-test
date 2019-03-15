@@ -22,6 +22,7 @@
     "axios": "^0.18.0",
     "bli-util-react": "github:briteliteimmersive/bli-util-react#master",
     "carlo": "^0.9.43",
+    "index": "^0.4.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "reducer": "^0.19.2",
