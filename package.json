@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
-    "axios": "^0.18.0",
+    "axios": "^1.8.2",
     "bli-util-react": "github:briteliteimmersive/bli-util-react#master",
     "carlo": "^0.9.43",
     "index": "^0.4.0",
